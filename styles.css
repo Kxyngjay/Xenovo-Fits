@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   color: #333;
+
 }
 
 header {
@@ -20,6 +21,27 @@ h1 {
 
 p {
   margin: 5px 0 20px;
+}
+#about {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5;
 }
 
 main {
